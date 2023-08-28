@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 0;
+  background-color: #1db2bdfd;
+  width: 440px;
+  margin: 20px auto;
+  border-radius: 7px;
+  box-shadow: 9px 10px 5px 1px rgba(0,0,0,0.63);
+}
+
+.header:hover {
+    background-color:#1ba5affd;
+    transition: all 0.2s ease-in;
+}
+
+.header h2 {
+  font-size: 2.3rem;
+  border-bottom: 1px solid black;
+  width: fit-content;
+  margin-bottom: 10px;
+}
+
+.header p {
+  margin-left: 5px;  
+}
+
+.footer {
+  background-color: rgb(217, 217, 217);
+  text-align: center;
+  color: grey;
+  padding: 10px 0;
+  margin-top: 30px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgb(69, 69, 69);
+}
+
+.container {
+  min-height: 1000px;
+}
+
+@media (max-width: 600px) {
+  .header {
+    width: 320px;
+  }
+}
