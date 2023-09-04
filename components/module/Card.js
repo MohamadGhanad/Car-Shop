@@ -11,7 +11,7 @@ function Card(props) {
         <div className={styles.container}>
             <img src={image} className={styles.image} />
             <h4 className={styles.title}>{name} - {model}</h4>
-            <p className={styles.detail}>{`${year}. ${distance} km`}</p>
+            <p className={styles.detail}>{`(${year}) ${distance} km`}</p>
             <div className={styles.footer}>
                 <p className={styles.price}>$ {price}</p>
                 <div className={styles.location}>
