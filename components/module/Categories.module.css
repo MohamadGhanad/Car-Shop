@@ -12,11 +12,17 @@
   .container div {
     text-align: center;
     margin: 5px;
-    background-color:gold;
+    background-color: #a8d60ffd;
     padding: 5px;
     padding-bottom: 0;
     border-radius: 5px;
     width: 100px;
+  }
+
+  .container div:hover {
+    background-color: #1db2bdad;
+    transition: all 0.3s ease-in-out;
+    transform: rotate(5deg);
   }
   
   @media (max-width: 600px) {
