@@ -3,11 +3,11 @@ import carsData from "../../data/carsData"
 import Card from "../module/Card";
 
 
-function CarsPage() {
+function CarsPage({data}) {
   return (
     <div className={styles.container}>
         {
-            carsData.map(car => (
+            data.map(car => (
                 <Card key={car.id} {...car}/>
             ))
         }
