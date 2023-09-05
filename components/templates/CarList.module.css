@@ -1,0 +1,32 @@
+.container {
+    margin: auto;
+    max-width: 1200px;
+}
+
+.back {
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    background-color: #a8d60fb3;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+.back p {
+    margin-left: 8px;
+    margin-top: auto;
+}
+
+.back:hover {
+    background-color: #a8d60ffd;
+    transition: all 0.2s linear;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
