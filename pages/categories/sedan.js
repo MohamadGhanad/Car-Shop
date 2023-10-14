@@ -1,4 +1,4 @@
-import CarList from "../../components/templates/Carlist";
+import CarList from "../../components/templates/CarList";
 import carsData from "../../data/carsData";
 
 function Sedan() {
